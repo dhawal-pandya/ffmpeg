@@ -13,6 +13,24 @@ These scripts use FFmpeg to transcode video files with specified parameters.
 
 No installation required beyond Python and FFmpeg setup.
 
+
+##### macOS
+
+If FFmpeg is not installed, you can install it using Homebrew. Open your terminal and run:
+
+    ```bash
+    brew install ffmpeg
+    ```
+
+##### Linux (Debian-based)
+
+If FFmpeg is not installed, you can install it using apt-get. Open your terminal and run:
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get install ffmpeg
+    ```
+
 ### Usage
 
 1. Modify the `run_ffmpeg` function in `ffmpeg.py` to adjust encoding parameters.
@@ -23,6 +41,7 @@ No installation required beyond Python and FFmpeg setup.
     ```
 
 3. Adjust input and output file paths as needed within the script.
+
 
 ### Parameters
 
@@ -43,7 +62,7 @@ No installation required beyond Python and FFmpeg setup.
 
 ### Installation
 
-No additional installation required beyond Go and FFmpeg setup.
+No additional installation required beyond Go and FFmpeg setup. Checkout the Python documentation.
 
 ### Usage
 
